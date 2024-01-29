@@ -1,0 +1,2068 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+@import url('https://db.onlinewebfonts.com/c/0d60e6fe76e8d6f6d4d87a1ee4415640?family=Lucida+Bright+Demibold');
+@font-face {
+    font-family:Brevia-Medium;
+    src: url(../font/Brevia-Medium.otf);
+}
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dosis', sans-serif; */
+    /* font-family:Lucida Sans Regular; */
+}
+
+.container{
+    padding: 0% 7%;
+    /* border: 1px solid red; */
+}
+p,h3,button{
+    font-family:Brevia-Medium;
+}
+
+
+
+header{
+    background-image: url(../img/Layer\ 1.png);
+    background-color: #9b315d;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7% 0% 7%;
+  
+}
+header nav .logo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+header nav .logo .main_logo{
+    display: flex;
+    align-items:end;
+}
+header nav .logo .main_logo img{
+    width: 30%;
+    margin-right: 10px;
+}
+header nav .logo .main_logo h2{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+header nav .logo .main_logo h2::first-letter{
+    font-size: 40px;
+}
+header nav .logo .main_logo h2 span{
+    color: #9b315d;
+}
+header nav .logo .menu_icon{
+    border: none;
+    background-color: transparent;
+}
+header nav .logo .menu_icon i{
+    font-size: 25px;
+    color: #9b315d;
+}
+.menu_icon{
+    display: none;
+}
+header nav .list{
+    width: 50%;
+}
+header nav .main_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .main_list span a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9b315d;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing:2px;
+    font-weight:600;
+    font-weight: bold;
+}
+header nav .main_list span a:hover{
+    border: 2px solid #9b315d;
+    padding: 5px;
+    color:navy;
+    border-radius: 5px;
+}
+header nav .main_list p a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing:2px;
+}
+header nav .main_list p a:hover{
+    border: 2px solid #9b315d;
+    padding: 5px;
+    color:#9b315d ;
+    border-radius: 5px;
+}
+header nav .main_list i{
+    font-size: 25px;
+    color: #9b315d;
+}
+
+
+header .banner .container .banner2{
+    height: 90vh;
+    display: flex;
+    justify-content: end;
+}
+header .banner .container .banner2 .text{
+    width: 40.4%;
+    margin-top:130px;
+}
+header .banner .container .banner2 .text h1{
+    font-size: 65px;
+    font-family: "Lucida Bright Demibold";
+}
+header .banner .container .banner2 .text h1 span{
+    font-family:Lucida Sans Regular;
+    color: white;
+    padding: 5px;
+    background-color: #ef77aa;
+    font-weight: 100;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-family: "Lucida Bright Regular";
+}
+header .banner .container .banner2 .text h3{
+   color: #9b315d;
+   font-size: 34px;
+   margin-top: 15px;
+}
+header .banner .container .banner2 .text p{
+   margin-top: 20px;
+   padding-right: 70px;
+   color: #9b315d;
+}
+header .banner .container .banner2 .text button{
+    margin-top: 20px;
+    width: 20%;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+}
+header .banner .container .banner2 .text button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+main .philosophy{
+    background-color: #f5f5f5;
+}
+main .philosophy .container .philosophy2{
+    padding: 6% 0% 2% 0%;
+    display: flex;
+}
+main .philosophy .container .philosophy2 .left{
+    width: 50%;
+}
+main .philosophy .container .philosophy2 .left h2{
+    margin: 30px 0px 50px 0px;
+    font-family: "Lucida Bright Demibold";
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+main .philosophy .container .philosophy2 .left span {
+    background-color: #ef77aa;
+    color: white;
+    padding:10px 10px 3px 10px;
+    border-radius:5px;
+}
+main .philosophy .container .philosophy2 .left p{
+    margin-top: 30px;
+    color: #494748;
+    padding-right: 100px;
+    line-height: 26px;
+}
+main .philosophy .container .philosophy2 .left button{
+    margin-top: 50px;
+    width: 17%;
+    height: 37px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    font-weight: bold;
+    font-size: 15px;
+}
+main .philosophy .container .philosophy2 .left button:hover{
+    background-color: #9b315d;
+    color: white;
+    cursor: pointer;
+}
+main .philosophy .container .philosophy2 .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+main .philosophy .container .philosophy2 .right img{
+    width: 90%;
+}
+
+main .first_class .container .content{
+    display: flex;
+    align-items:center;
+    margin: 150px 0px;
+}
+main .first_class .container .content .card{
+    width: 34%;
+    text-align: center;
+    padding: 50px 0px;
+}
+main .first_class .container .content .card h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50px;
+}
+main .first_class .container .content .card h3 span{
+    color: #ef77aa;
+}
+main .first_class .container .content .card p{
+    margin-top: 20px;
+    padding: 0px 70px;
+    font-size: 15px;
+    line-height: 30px;
+}
+main .first_class .container .content .card button{
+    margin-top: 30px;
+    width: 25%;
+    height: 37px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    font-weight: bold;
+    font-size: 15px;
+}
+main .first_class .container .content .card button:hover{
+    background-color: #9b315d;
+    color: white;
+    cursor: pointer;
+}
+main .first_class .container .content .card .icon{
+    border: 2px solid #9b315d;
+    width: 79%;
+    height: 340px;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+}
+main .first_class .container .content .card .icon img{
+    width: 100%;
+}
+main .first_class .container .content .card2{
+    width: 34%;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 40px 153px 27px rgba(0, 0, 0, 0.1);   
+}
+main .first_class .container .content .card2 h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50px;
+}
+main .first_class .container .content .card2 h3 span{
+    color: #ef77aa;
+}
+main .first_class .container .content .card2 p{
+    margin-top: 20px;
+    padding: 0px 70px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #3d3b3c;
+}
+main .first_class .container .content .card2 button{
+    margin-top: 30px;
+    width: 25%;
+    height: 37px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    font-weight: bold;
+    font-size: 15px;
+}
+main .first_class .container .content .card2 button:hover{
+    background-color: #9b315d;
+    color: white;
+    cursor: pointer;
+}
+main .first_class .container .content .card2 .icon{
+    border: 2px solid #9b315d;
+    width: 79%;
+    height: 340px;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+}
+main .first_class .container .content .card2 .icon img{
+    width: 100%;
+}
+
+
+
+
+main .beginners .container .beginners2{
+    display: flex;
+    margin-bottom: 150px;
+}
+main .beginners .container .beginners2 .left{
+    width: 65%;
+}
+main .beginners .container .beginners2 .left h2{
+    font-size: 60px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-family: "Lucida Bright Demibold";
+}
+main .beginners .container .beginners2 .left span{
+    background-color: #ef77aa;
+    color: white;
+    padding:10px 10px 3px 10px;
+    border-radius: 5px;
+}
+main .beginners .container .beginners2 .left p{
+    font-size: 15px;
+    padding-right: 180px;
+    line-height: 30px;
+    margin-top: 30px;
+    color: #575556;
+}
+main .beginners .container .beginners2 .left button{
+    margin-top: 40px;
+    width: 15%;
+    height: 37px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    font-weight: bold;
+    font-size: 15px;
+}
+main .beginners .container .beginners2 .left button:hover{
+    background-color: #9b315d;
+    color: white;
+    cursor: pointer;
+}
+main .beginners .container .beginners2 .right{
+    width: 40%;
+    height: 550px;
+    position: relative;
+}
+main .beginners .container .beginners2 .right .card1{
+    width: 80%;
+    height: 500px;
+    background-image: url(../img/Layer\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+main .beginners .container .beginners2 .right .card2{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    background-color: rgb(245, 245, 245);
+    z-index: -1;      
+}
+
+
+
+
+
+main .yogi_b .container .yogi_b2{
+    padding:2% 10%;
+    position: relative;
+    background-color: #f5f5f5;
+}
+main .yogi_b .container .yogi_b2 .l_icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #9b315d;
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 107px;
+}
+main .yogi_b .container .yogi_b2 .l_icon:hover{
+    background-color: white;
+    border: 2px solid #9b315d ;
+    color: #9b315d;
+    cursor: pointer;
+}
+main .yogi_b .container .yogi_b2 .r_icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #9b315d;
+    color: white;
+    position: absolute;
+    left:94%;
+    top: 107px;
+}
+main .yogi_b .container .yogi_b2 .r_icon:hover{
+    background-color: white;
+    border: 2px solid #9b315d ;
+    color: #9b315d;
+    cursor: pointer;
+}
+main .yogi_b .container .yogi_b2 .content{
+    display: flex;
+    align-items: center;
+}
+main .yogi_b .container .yogi_b2 .content .left{
+    width: 21%;
+    height: 215px;
+}
+main .yogi_b .container .yogi_b2 .content .left img{
+    width: 100%;
+}
+main .yogi_b .container .yogi_b2 .content .right{
+    text-align: center;
+    width: 79%;
+}
+main .yogi_b .container .yogi_b2 .content .right p{
+    font-size: 25px;
+    font-style: italic;
+    line-height: 45px;
+}
+main .yogi_b .container .yogi_b2 .content .right h3{
+   margin-left: 400px;
+   color: #a74b71;
+}
+
+
+
+main .registration .container .content{
+    display: flex;
+    align-items: center;
+}
+main .registration .container .content .card1{
+    width: 50%;
+    text-align: center;
+}
+main .registration .container .content .card1 h2{
+    font-size: 50px;
+    background-color: #ef77aa;
+    width: 25%;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    font-style: italic;
+}
+main .registration .container .content .card1 h3{
+    font-size: 30px;
+    margin: 15px 0px;
+}
+main .registration .container .content .card1 p{
+    font-size:25px;
+    font-weight: bold;
+    font-style: italic;
+}
+main .registration .container .content .card1 button{
+    margin-top: 15px;
+    width: 20%;
+    padding: 1%;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    background-color: white;
+}
+main .registration .container .content .card1 button:hover{
+    background-color: #9b315d;
+    color: white;
+    cursor: pointer;
+}
+main .registration .container .content .card2{
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/Layer\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(155, 49, 93, 0.273);
+    background-blend-mode: hard-light;    
+}
+  
+
+
+main .free .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 140px 0px;
+}
+main .free .container .content .card{
+    width: 32.5%;
+    background-color: #9b315d;
+    color: white;
+}
+main .free .container .content .card .icon1{
+    height: 270px;
+}
+main .free .container .content .card .icon1 img{
+    width: 100%;
+}
+main .free .container .content .card .text{
+    padding: 4%;
+}
+main .free .container .content .card .text h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Lucida Bright Regular";
+    letter-spacing: 2px;
+}
+main .free .container .content .card .text p{
+    padding-right: 90px;
+    margin-top: 15px;
+    color: #ebd6df;
+    line-height:25px;
+}
+main .free .container .content .card .text .icon{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+main .free .container .content .card .text .icon h4{
+    margin-right: 10px;
+    font-family:Brevia-Medium;
+}
+main .free .container .content .card .text .icon p{
+    line-height: 40px;
+}
+main .free .container .content .card .text .icon i{
+    font-size: 20px;
+}
+
+
+
+main .methodology .container .methodology2{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+main .methodology .container .methodology2 .left{
+    width: 60%;
+}
+main .methodology .container .methodology2 .left h2{
+    font-size: 60px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-family: "Lucida Bright Demibold";
+}
+main .methodology .container .methodology2 .left span{
+    background-color: #ef77aa;
+    color: white;
+    padding:10px 10px 3px 10px;
+    border-radius: 5px;
+}
+main .methodology .container .methodology2 .left p{
+    font-size: 15px;
+    padding-right: 207px;
+    line-height: 30px;
+    margin-top: 30px;
+    color: #575556;
+}
+main .methodology .container .methodology2 .left button{
+    margin-top: 30px;
+    width: 15%;
+    height: 37px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    font-weight: bold;
+    font-size: 15px;
+}
+main .methodology .container .methodology2 .left button:hover{
+    background-color: #9b315d;
+    color: white;
+    cursor: pointer;
+}
+main .methodology .container .methodology2 .right{
+    width: 37%;
+    border: 20px solid white;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.868px 4.924px 17.2px 2.8px rgba(0, 0, 0, 0.1);
+    background-image: url(../img/Rectangle\ 3\ copy\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 120px;
+}
+
+
+footer .therapy {
+    background-image: url(../img/Layer\ 15.png);
+    background-color: rgba(0, 0, 0, 0.492);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+footer .therapy .container .text{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .therapy .container .text .card{
+    color: white;
+}
+footer .therapy .container .text .card h2{
+    font-size: 60px;
+    font-family: "Lucida Bright Demibold";
+    margin-bottom: 20px;
+}
+footer .therapy .container .text .card p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+
+footer .f_top{
+    background-color: #9b315d;
+}
+footer .f_top .container .f_top2{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+footer .f_top .container .f_top2 .card{
+    width: 20%;
+    color: white;
+}
+footer .f_top .container .f_top2 .card h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Lucida Bright Demibold";
+    letter-spacing: 3px;
+}
+footer .f_top .container .f_top2 .card .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+footer .f_top .container .f_top2 .card .icon i{
+    font-size: 25px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b315d;
+    color: white;
+    border: 3px solid white;
+}
+footer .f_top .container .f_top2 .card .icon i:hover{
+    background-color: white;
+    color: #9b315d;
+    cursor: pointer;
+}
+footer .f_top .container .f_top2 .card .icon #youtub{
+    font-size: 25px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #9b315d;
+}
+footer .f_top .container .f_top2 .card .icon #youtub:hover{
+    background-color: #9b315d;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+footer .f_dun{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b315d;
+    color: white;
+    border-top:2px solid #c499aa ;
+}
+
+
+
+
+
+@media screen and (max-width:1275px) {
+    header .banner .container .banner2 .text h1{
+        font-size: 45px;
+    }
+    main .first_class .container .content .card .icon{
+        height: auto;
+    }
+    main .first_class .container .content .card2 .icon{
+        height: auto;
+    }
+
+    main .beginners .container .beginners2 .left h2{
+        font-size: 50px;
+    }
+    main .beginners .container .beginners2 .left p{
+        padding-right: 50px;
+    }
+
+    main .registration .container .content .card1 h2{
+        width: 30%;
+    }
+   
+
+    main .methodology .container .methodology2 .left h2{
+        font-size: 50px;
+    }
+    main .methodology .container .methodology2 .left p{
+        padding-right: 150px;
+    }
+
+    footer .therapy .container .text .card h2{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:1175px) {
+    header .banner .container .banner2 .text h1{
+        font-size: 40px;
+    }
+    main .philosophy .container .philosophy2 .left h2{
+        font-size: 45px;
+    }
+
+    main .first_class .container .content .card button{
+        width: 30%;
+    }
+    main .first_class .container .content .card2 button{
+        width: 30%;
+    }
+
+    main .beginners .container .beginners2 .left h2{
+        font-size: 45px;
+    }
+    main .beginners .container .beginners2 .left p{
+        padding-right: 0px;
+    }
+
+    main .methodology .container .methodology2 .left h2{
+        font-size: 45px;
+    }
+    main .methodology .container .methodology2 .left p{
+        padding-right: 100px;
+    }
+    main .methodology .container .methodology2 .left button{
+        width: 20%;
+    }
+ 
+
+    footer .therapy .container .text .card h2{
+        font-size: 45px;
+    }
+}
+
+
+
+@media screen and (max-width:1075px) {
+    main .philosophy .container .philosophy2 .left h2{
+        font-size: 40px;
+    }
+
+    main .beginners .container .beginners2 .left h2{
+        font-size: 40px;
+    }
+
+    main .registration .container .content .card1 h2{
+        font-size: 40px;
+    }
+
+    main .methodology .container .methodology2 .left h2{
+        font-size: 40px;
+    }
+    main .methodology .container .methodology2 .left p{
+        padding-right: 50px;
+    }
+    
+
+    footer .therapy .container .text .card h2{
+        font-size: 40px;
+    }
+}
+
+
+
+@media screen and (max-width:991px) {
+    header nav{
+        flex-direction: column;
+    }
+    header nav .logo{
+        width: 100%;
+        justify-content: space-between;
+    }
+    header nav .list{
+        width: 100%;
+    }
+    header nav .main_list{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header nav .main_list span{
+        padding-top: 20px;
+    }
+    header nav .main_list p{
+        padding-top: 20px;
+    }
+    header nav .main_list i{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .list{
+        display: none;
+    }
+    .show{
+        display:block;
+    }
+
+
+    header .banner .container .banner2{
+        justify-content: center;
+        height: auto;
+    }
+    header .banner .container .banner2 .text{
+        width: 60%;
+        text-align: center;
+        margin: 100px 0px;
+    }
+    header .banner .container .banner2 .text h1{
+        font-size: 40px;
+    }
+    header .banner .container .banner2 .text h3{
+        font-size: 30px;
+    }
+    header .banner .container .banner2 .text p{
+        padding: 0;
+    }
+    header .banner .container .banner2 .text button{
+        margin-bottom: 10px;
+        width: 30%;
+    }
+
+    main .philosophy .container .philosophy2{
+        flex-direction: column;
+        justify-content: center;
+    }
+    main .philosophy .container .philosophy2 .left{
+        margin: auto;
+        text-align: center;
+        width: 60%;
+    }
+    main .philosophy .container .philosophy2 .left h2{
+        font-size: 35px;
+        margin: 20px 0px;
+        letter-spacing: 0;
+    }
+    main .philosophy .container .philosophy2 .left p{
+        padding: 0;
+        margin-top: 20px;
+    }
+    main .philosophy .container .philosophy2 .right{
+        margin: auto;
+        width: 60%;
+        
+    }
+    main .philosophy .container .philosophy2 .left button{
+        margin: 20px 0px;
+        width: 30%;
+    }
+    
+
+    main .first_class .container .content{
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    main .first_class .container .content .card{
+        width: 60%;
+    }
+    main .first_class .container .content .card .icon{
+        width: 70%;
+    }
+    main .first_class .container .content .card h3{
+        margin-top: 30px;
+    }
+    main .first_class .container .content .card p{
+        padding: 0px 50px;
+    }
+
+    main .first_class .container .content .card2{
+        width: 60%;
+    }
+    main .first_class .container .content .card2 .icon{
+        width: 70%;
+    }
+    main .first_class .container .content .card2 h3{
+        margin-top: 30px;
+    }
+    main .first_class .container .content .card2 p{
+        padding: 0px 50px;
+    }
+
+    main .beginners .container .beginners2{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    main .beginners .container .beginners2 .left{
+        margin: auto;
+        text-align: center;
+        width: 60%;
+    }
+    main .beginners .container .beginners2 .left h2{
+        letter-spacing: 0;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    main .beginners .container .beginners2 .left button{
+        width: 30%;
+    }
+    main .beginners .container .beginners2 .right{
+        margin: auto;
+        width: 60%;
+        margin-top: 20px;
+        height: 500px;
+    }
+    main .beginners .container .beginners2 .right .card1{
+        width: 75%;
+        height: 450px;
+    }
+    main .beginners .container .beginners2 .right .card2{
+        width: 75%;
+        height: 450px;
+    }
+   
+
+    main .yogi_b .container .yogi_b2 .content{
+        flex-direction: column;
+    }
+    main .yogi_b .container .yogi_b2 .content .left{
+        width: 60%;
+        height: auto;
+    }
+    main .yogi_b .container .yogi_b2 .content .right{
+        width: 60%;
+        margin-top: 20px;
+    }
+    main .yogi_b .container .yogi_b2 .content .right h3{
+        margin: 0;
+    }
+    main .yogi_b .container .yogi_b2 .l_icon{
+        left: auto;
+    }
+    main .yogi_b .container .yogi_b2 .r_icon{
+        left: 93%;
+    }
+
+    main .registration .container .content{
+        flex-direction: column;
+    }
+    main .registration .container .content .card1 h2{
+        font-size: 40px;
+        width: 35%;
+    }
+    main .registration .container .content .card1 p{
+        font-size: 20px;
+    }
+    main .registration .container .content .card1 button{
+        width: 30%;
+    }
+    main .registration .container .content .card2{
+        height: 500px;
+        margin-top: 20px;
+    }
+
+
+    main .free .container .content{
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    main .free .container .content .card{
+        width: 50%;
+        text-align: center;
+        margin:10px;
+    }
+    main .free .container .content .card .text p{
+        padding: 0;
+    }
+    main .free .container .content .card .text .icon{
+        justify-content: center;
+    }
+
+
+    
+    main .methodology .container .methodology2{
+        flex-direction: column;
+    }
+    main .methodology .container .methodology2 .left{
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+    main .methodology .container .methodology2 .left h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    main .methodology .container .methodology2 .left p{
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+    main .methodology .container .methodology2 .left button{
+        width: 30%;
+        margin-top: 20px;
+    }
+    main .methodology .container .methodology2 .right{
+        margin: auto;
+        width: 50%;
+        margin-top: 20px;
+        height: 400px;
+    }
+
+
+    footer .therapy .container .text{
+        height: 400px;
+    }
+    footer .therapy .container .text .card{
+        text-align: center;
+        width: 50%;
+    }
+
+
+    footer .f_top .container .f_top2{
+        flex-direction: column;
+    }
+    footer .f_top .container .f_top2 .card{
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+    footer .f_dun{
+        text-align: center
+    }
+}
+
+
+@media screen and (max-width:757px) {
+    header nav .logo .main_logo h2{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    header nav .logo .main_logo img{
+        width: 25%;
+    }
+    header nav .logo .menu_icon i{
+        font-size: 20px;
+    }
+
+
+    header .banner .container .banner2 .text{
+        margin: 80px 0px;
+        width: 70%;
+    }
+    header .banner .container .banner2 .text h1{
+        font-size: 35px;
+    }
+    header .banner .container .banner2 .text h3{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    header .banner .container .banner2 .text p{
+        margin-top: 10px;
+    }
+    header .banner .container .banner2 .text button{
+        margin-top: 10px;
+        width: 40%;
+    }
+    
+    main .philosophy .container .philosophy2 .left{
+        width: 70%;
+    }
+    main .philosophy .container .philosophy2 .left h2{
+        font-size: 30px;
+    }
+    main .philosophy .container .philosophy2 .left p{
+        font-size: 15px;
+    }
+    main .philosophy .container .philosophy2 .left button{
+        width: 40%;
+    }
+    main .philosophy .container .philosophy2 .right{
+        width: 70%;
+    }
+
+
+    main .first_class .container .content{
+        flex-direction: column;
+        margin: 70px 0px;
+    }
+    main .first_class .container .content .card{
+        width: 70%;
+        padding: 30px 0px;
+    }
+    main .first_class .container .content .card .icon{
+        width: 60%;
+    }
+    main .first_class .container .content .card h3{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    main .first_class .container .content .card p{
+        padding: 0px 30px;
+        line-height: 25px;
+    }
+    main .first_class .container .content .card button{
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    main .first_class .container .content .card2{
+        width: 70%;
+        padding: 30px 0px;
+    }
+    main .first_class .container .content .card2 .icon{
+        width: 60%;
+    }
+    main .first_class .container .content .card2 h3{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    main .first_class .container .content .card2 p{
+        padding: 0px 30px;
+        line-height: 25px;
+    }
+    main .first_class .container .content .card2 button{
+        width: 40%;
+        margin-top: 20px;
+    }
+
+   
+    
+    main .beginners .container .beginners2{
+        margin-bottom: 70px;
+    }
+    main .beginners .container .beginners2 .left{
+        width: 70%;
+    }
+    main .beginners .container .beginners2 .left h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    main .beginners .container .beginners2 .left p{
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    main .beginners .container .beginners2 .left button{
+        width: 40%;
+        margin-top: 20px;
+    }
+    main .beginners .container .beginners2 .right{
+        width: 70%;
+        margin-top: 20px;
+        height: 450px;
+    }
+    main .beginners .container .beginners2 .right .card1{
+        width: 70%;
+        height: 400px;
+    }
+    main .beginners .container .beginners2 .right .card2{
+        width: 70%;
+        height: 400px;
+    }
+    
+
+    main .yogi_b .container .yogi_b2 .content .left{
+        width: 70%;
+        height: auto;
+    }
+    main .yogi_b .container .yogi_b2 .content .right{
+        width: 70%;
+    }
+    main .yogi_b .container .yogi_b2 .content .right p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    main .yogi_b .container .yogi_b2 .l_icon{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    main .yogi_b .container .yogi_b2 .r_icon{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+
+    main .registration .container .content .card1{
+        width: 70%;
+    }
+    main .registration .container .content .card1 h2{
+        font-size: 35px;
+    }
+    main .registration .container .content .card1 p{
+        font-size: 15px;
+    }
+    main .registration .container .content .card1 button{
+        width: 40%;
+        margin-top: 10px;
+    }
+    main .registration .container .content .card2{
+        width: 70%;
+        height: 400px;
+    }
+    
+
+    
+    main .free .container .content{
+        margin: 80px 0px;
+    }
+    main .free .container .content .card{
+        width: 70%;
+    }
+    main .free .container .content .card .text .icon{
+        justify-content: center;
+    }
+
+
+
+    main .methodology .container .methodology2 {
+        margin-bottom: 80px;
+    }
+    main .methodology .container .methodology2 .left{
+        width: 70%;
+    }
+    main .methodology .container .methodology2 .left h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    main .methodology .container .methodology2 .left p{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    main .methodology .container .methodology2 .left button{
+        width: 40%;
+        margin-top: 10px;
+    }
+    main .methodology .container .methodology2 .right{
+        width: 70%;
+        height: 350px;
+    }
+
+
+    footer .therapy .container .text{
+        height: 350px;
+    }
+    footer .therapy .container .text .card{
+        text-align: center;
+        width: 70%;
+    }
+    footer .therapy .container .text .card h2{
+        font-size: 35px;
+    }
+    footer .therapy .container .text .card p{
+        font-size: 25px;
+    }
+
+
+    footer .f_top .container .f_top2 .card{
+        width: 70%;
+    }
+    footer .f_top .container .f_top2 .card h2{
+        font-size: 25px;
+    }
+    footer .f_top .container .f_top2 .card .icon{
+        justify-content:space-around;
+    }
+    footer .f_top .container .f_top2 .card .icon i{
+        height: 45px;
+        width: 45px;
+    }
+    footer .f_top .container .f_top2 .card .icon #youtub{
+        height: 45px;
+        width: 45px;
+    }
+
+
+
+    footer .f_dun p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    header nav .logo .main_logo img{
+        margin-right:0px;
+        width: 20%;
+    }
+    header nav .logo .main_logo h2{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    header nav .logo .main_logo h2::first-letter{
+        font-size: 30px;
+    }
+    header nav .logo .menu_icon i{
+        font-size: 15px;
+    }
+
+
+    header .banner .container .banner2 .text{
+        margin: 60px 0px;
+        width: 80%;
+    }
+    header .banner .container .banner2 .text h1{
+        font-size: 30px;
+    }
+    header .banner .container .banner2 .text h3{
+        font-size: 15px;
+    }
+    header .banner .container .banner2 .text p{
+        font-size: 13px;
+    }
+    header .banner .container .banner2 .text button{
+        width: 50%;
+    }
+
+    main .philosophy .container .philosophy2 .left{
+        width: 80%;
+    }
+    main .philosophy .container .philosophy2 .left h2{
+        font-size: 25px;
+    }
+    main .philosophy .container .philosophy2 .left p{
+        font-size: 13px;
+    }
+    main .philosophy .container .philosophy2 .left button{
+        width: 50%;
+    }
+    main .philosophy .container .philosophy2 .right{
+        width: 80%;
+    }
+
+
+    main .first_class .container .content{
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    main .first_class .container .content .card{
+        width: 80%;
+        padding: 20px 0px;
+    }
+    main .first_class .container .content .card .icon{
+        width: 50%;
+    }
+    main .first_class .container .content .card h3{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    main .first_class .container .content .card p{
+        padding: 0px 20px;
+        font-size: 13px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    main .first_class .container .content .card button{
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    main .first_class .container .content .card2{
+        width: 80%;
+        padding: 20px 0px;
+    }
+    main .first_class .container .content .card2 .icon{
+        width: 50%;
+    }
+    main .first_class .container .content .card2 h3{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    main .first_class .container .content .card2 p{
+        padding: 0px 20px;
+        font-size: 13px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    main .first_class .container .content .card2 button{
+        width: 50%;
+        margin-top: 10px;
+    }
+
+
+
+
+    main .beginners .container .beginners2{
+        margin-bottom: 60px;
+    }
+    main .beginners .container .beginners2 .left{
+        width: 80%;
+    }
+    main .beginners .container .beginners2 .left h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    main .beginners .container .beginners2 .left p{
+        line-height: 25px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    main .beginners .container .beginners2 .left button{
+        width: 50%;
+        margin-top: 20px;
+    }
+    main .beginners .container .beginners2 .right{
+        width: 80%;
+        margin-top: 10px;
+        height: 400px;
+    }
+    main .beginners .container .beginners2 .right .card1{
+        /* left: 30px; */
+        width: 65%;
+        height: 350px;
+    }
+    main .beginners .container .beginners2 .right .card2{
+        /* left: 80px; */
+        width: 65%;
+        height: 350px;
+    }
+
+
+
+    main .yogi_b .container .yogi_b2 .content .left{
+        width: 80%;
+    }
+    main .yogi_b .container .yogi_b2 .content .right{
+        width: 80%;
+    }
+    main .yogi_b .container .yogi_b2 .content .right p{
+        font-size: 15px;
+        line-height: 35px;
+    }
+    main .yogi_b .container .yogi_b2 .l_icon{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+    main .yogi_b .container .yogi_b2 .r_icon{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+
+    main .registration .container .content .card1{
+        width: 80%;
+    }
+    main .registration .container .content .card1 h2{
+        font-size: 30px;
+    }
+    main .registration .container .content .card1 h3{
+        font-size: 20px;
+    }
+    main .registration .container .content .card1 p{
+        font-size: 13px;
+    }
+    main .registration .container .content .card1 button{
+        width: 50%;
+    }
+    main .registration .container .content .card2{
+        width: 80%;
+        height: 300px;
+    }
+
+
+    main .free .container .content{
+        margin: 40px 0px;
+    }
+    main .free .container .content .card{
+        width: 80%;
+    }
+    main .free .container .content .card .text p{
+        padding: 0;
+    }
+    main .free .container .content .card .icon1 img{
+        height: 250px;
+    }
+    main .free .container .content .card .text .icon{
+        justify-content: center;
+    }
+
+
+    main .methodology .container .methodology2 {
+        margin-bottom: 40px;
+    }
+    main .methodology .container .methodology2 .left{
+        width: 80%;
+    }
+    main .methodology .container .methodology2 .left h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    main .methodology .container .methodology2 .left p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    main .methodology .container .methodology2 .left button{
+        width: 50%;
+        font-size: 13px;
+    }
+    main .methodology .container .methodology2 .right{
+        width: 80%;
+        height: 300px;
+    }
+    main .methodology .container .methodology2 .right img{
+        width: 15%;
+    }
+
+    
+    footer .therapy .container .text{
+        height: 300px;
+    }
+    footer .therapy .container .text .card{
+        text-align: center;
+        width: 80%;
+    }
+    footer .therapy .container .text .card h2{
+        font-size: 30px;
+    }
+    footer .therapy .container .text .card p{
+        font-size: 20px;
+    }
+
+
+
+    footer .f_top .container .f_top2{
+        padding: 60px 0px;
+    }
+    footer .f_top .container .f_top2 .card{
+        width: 80%;
+    }
+    footer .f_top .container .f_top2 .card h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    footer .f_top .container .f_top2 .card p{
+        font-size: 15px;
+    }
+    footer .f_top .container .f_top2 .card .icon i{
+        height: 40px;
+        width: 40px;
+    }
+    footer .f_top .container .f_top2 .card .icon #youtub{
+        height: 40px;
+        width: 40px;
+    }
+
+
+
+    footer .f_dun p{
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    header .banner .container .banner2 .text{
+        margin: 30px 0px;
+        width: 100%;
+    }
+    header .banner .container .banner2 .text h1{
+        font-size: 20px;
+    }
+    header .banner .container .banner2 .text h1 span{
+        font-size: 20px;
+    }
+    header .banner .container .banner2 .text h3{
+        font-size: 15px;
+    }
+    header .banner .container .banner2 .text p{
+        font-size: 10px;
+    }
+    header .banner .container .banner2 .text button{
+        width: 70%;
+        font-size: 12px;
+    }
+    
+
+
+    main .philosophy .container .philosophy2 .left{
+        width: 100%;
+    }
+    main .philosophy .container .philosophy2 .left h2{
+        font-size: 15px;
+    }
+    main .philosophy .container .philosophy2 .left p{
+        font-size: 10px;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+    main .philosophy .container .philosophy2 .left button{
+        width: 70%;
+        height: 30px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    main .philosophy .container .philosophy2 .right{
+        width: 100%;
+    }
+
+
+    main .first_class .container .content{
+        margin: 30px 0px;
+    }
+    main .first_class .container .content .card{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    main .first_class .container .content .card h3{
+        font-size: 20px;
+    }
+    main .first_class .container .content .card p{
+        padding: 0px 10px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    main .first_class .container .content .card button{
+        width: 70%;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    main .first_class .container .content .card2{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    main .first_class .container .content .card2 h3{
+        font-size: 20px;
+    }
+    main .first_class .container .content .card2 p{
+        padding: 0px 10px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    main .first_class .container .content .card2 button{
+        width: 70%;
+        height: 30px;
+        font-size: 12px;
+    }
+
+
+    main .beginners .container .beginners2{
+        margin-bottom: 30px;
+    }
+    main .beginners .container .beginners2 .left{
+        width: 100%;
+    }
+    main .beginners .container .beginners2 .left h2{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    main .beginners .container .beginners2 .left p{
+        line-height: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    main .beginners .container .beginners2 .left button{
+        width: 70%;
+        margin-top: 10px;
+        height: 30px;
+        font-size: 12px;
+    }
+    main .beginners .container .beginners2 .right{
+        width: 100%;
+        margin-top: 10px;
+        height: 350px;
+    }
+    main .beginners .container .beginners2 .right .card1{
+        left: 40px;
+        top: 30px;
+        width: 60%;
+        height: 300px;
+    }
+    main .beginners .container .beginners2 .right .card2{
+        left: 90px;
+        width: 60%;
+        height: 300px;
+    }
+
+
+    main .yogi_b .container .yogi_b2 .content .left{
+        width: 100%;
+    }
+    main .yogi_b .container .yogi_b2 .content .right{
+        width: 100%;
+    }
+    main .yogi_b .container .yogi_b2 .content .right p{
+        font-size: 13px;
+        line-height: 30px;
+    }
+    main .yogi_b .container .yogi_b2 .l_icon{
+        left: 1px;
+    }
+    main .yogi_b .container .yogi_b2 .r_icon{
+       left: 90%;
+    }
+
+
+
+    main .registration .container .content .card1{
+        width: 100%;
+    }
+    main .registration .container .content .card1 h2{
+        font-size: 15px;
+    }
+    main .registration .container .content .card1 h3{
+        font-size: 13px;
+        margin: 10px 0px;
+    }
+    main .registration .container .content .card1 p{
+        font-size: 12px;
+    }
+    main .registration .container .content .card1 button{
+        width: 70%;
+        font-size: 12px;
+    }
+    main .registration .container .content .card2{
+        width: 100%;
+        height: 200px;
+    }
+
+
+
+
+    main .free .container .content{
+        margin: 20px 0px;
+    }
+    main .free .container .content .card{
+        width: 100%;
+    }
+    main .free .container .content .card .text h3{
+        font-size: 15px;
+    }
+    main .free .container .content .card .text p{
+        font-size: 12px;
+        margin-top: 10px;
+        line-height:20px;
+    }
+    main .free .container .content .card .icon1{
+        height: 255px;
+    }
+    main .free .container .content .card .text .icon{
+        justify-content: center;
+    }
+    main .free .container .content .card .text .icon h4{
+        font-size: 10px;
+    }
+    main .free .container .content .card .text .icon{
+        margin: 10px 0px;
+    }
+
+
+    main .methodology .container .methodology2 {
+        margin-bottom: 30px;
+    }
+    main .methodology .container .methodology2 .left{
+        width: 100%;
+    }
+    main .methodology .container .methodology2 .left h2{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    main .methodology .container .methodology2 .left p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    main .methodology .container .methodology2 .left button{
+        width: 70%;
+        height:30px;
+        font-size: 12px;
+    }
+    main .methodology .container .methodology2 .right{
+        width: 100%;
+        height: 250px;
+    }
+    main .methodology .container .methodology2 .right img{
+        width: 14%;
+    }
+
+    
+    footer .therapy .container .text{
+        height: 250px;
+    }
+    footer .therapy .container .text .card{
+        width: 100%;
+    }
+    footer .therapy .container .text .card h2{
+        font-size: 25px;
+    }
+    footer .therapy .container .text .card p{
+        font-size: 15px;
+    }
+
+
+    footer .f_top .container .f_top2{
+        padding: 30px 0px;
+    }
+    footer .f_top .container .f_top2 .card{
+        width: 100%;
+    }
+    footer .f_top .container .f_top2 .card .icon i{
+        height: 35px;
+        width: 35px;
+    }
+    footer .f_top .container .f_top2 .card .icon #youtub{
+        height: 35px;
+        width: 35px;
+    }
+
+    footer .f_dun p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media screen and (max-width:265px) {
+    header nav .logo .main_logo{
+        align-items: center;
+    }
+    header nav .logo .main_logo h2{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    header nav .logo .main_logo h2::first-letter{
+        font-size: 0px;
+    }
+
+    header .banner .container .banner2 .text{
+        margin: 20px 0px;
+    }
+
+    main .philosophy .container .philosophy2 .left h2{
+        font-size: 15px;
+    }
+    main .philosophy .container .philosophy2 .left span{
+        padding:5px 5px 3px 5px;
+    }
+    main .philosophy .container .philosophy2 .left p{
+        line-height: 15px;
+    }
+
+    main .first_class .container .content .card h3{
+        font-size: 15px;
+    }
+    main .first_class .container .content .card p{
+        line-height: 15px;
+    }
+    main .first_class .container .content .card2 h3{
+        font-size: 15px;
+    }
+    main .first_class .container .content .card2 p{
+        line-height: 15px;
+    }
+
+
+
+    main .beginners .container .beginners2{
+        margin-bottom: 20px;
+    }
+    main .beginners .container .beginners2 .left h2{
+        font-size: 15px;
+    }
+    main .beginners .container .beginners2 .left span{
+        padding:5px 5px 3px 5px;
+    }
+    main .beginners .container .beginners2 .left p{
+        line-height: 15px;
+    }
+    main .beginners .container .beginners2 .right{
+        width: 100%;
+        margin-top: 10px;
+        height: 280px;
+    }
+    main .beginners .container .beginners2 .right .card1{
+        left: 20px;
+        top: 20px;
+        width: 75%;
+        height: 250px;
+    }
+    main .beginners .container .beginners2 .right .card2{
+        left: 50px;
+        width: 75%;
+        height: 250px;
+    }
+
+    main .yogi_b .container .yogi_b2 .content .right{
+        margin-top: 10px;
+    }
+    main .yogi_b .container .yogi_b2 .content .right p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    main .yogi_b .container .yogi_b2 .content .right h3{
+        font-size: 15px;
+    }
+    main .yogi_b .container .yogi_b2 .l_icon{
+        left: 1px;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+    main .yogi_b .container .yogi_b2 .r_icon{
+       left: 90%;
+       width: 20px;
+        height:20px;
+        font-size: 10px;
+    }
+
+
+    main .free .container .content{
+        margin: 10px 0px;
+    }
+    main .free .container .content .card .text h3{
+        font-size: 15px;
+    }
+    main .free .container .content .card .text p{
+        font-size: 10px;
+    }
+    main .free .container .content .card .icon1{
+        height: 255px;
+    }
+    main .free .container .content .card .text .icon{
+        justify-content: center;
+    }
+    main .free .container .content .card .text .icon h4{
+        font-size: 12px;
+    }
+    main .free .container .content .card .text .icon{
+        margin: 10px 0px;
+    }
+  
+    main .methodology .container .methodology2 {
+        margin-bottom: 20px;
+    }
+    main .methodology .container .methodology2 .left h2{
+        font-size: 10px;
+        letter-spacing:0;
+        margin-bottom: 10px;
+    }
+    main .methodology .container .methodology2 .left p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    main .methodology .container .methodology2 .left button{
+        width: 80%;
+        height:25px ;
+        font-size: 10px;
+    }
+    main .methodology .container .methodology2 .right{
+        height: 200px;
+    }
+    main .methodology .container .methodology2 .right img{
+        width: 12%;
+    }
+
+
+
+    footer .therapy .container .text{
+        height: 200px;
+    }
+    footer .therapy .container .text .card h2{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    footer .therapy .container .text .card p{
+        font-size: 12px;
+    }
+
+
+    footer .f_top .container .f_top2{
+        padding: 20px 0px;
+    }
+    footer .f_top .container .f_top2 .card{
+        width: 100%;
+    }
+    footer .f_top .container .f_top2 .card h2{
+        font-size: 15px;
+    }
+    footer .f_top .container .f_top2 .card p{
+        font-size: 10px;
+    }
+    footer .f_top .container .f_top2 .card .icon i{
+        height: 30px;
+        width: 30px;
+    }
+    footer .f_top .container .f_top2 .card .icon #youtub{
+        height: 30px;
+        width: 30px;
+    }
+
+    footer .f_dun p{
+        font-size: 10px;
+    }
+}
+
